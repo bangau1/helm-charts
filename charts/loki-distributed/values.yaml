@@ -5,6 +5,9 @@ global:
   # -- Overrides the priorityClassName for all pods
   priorityClassName: null
 
+  extraVolumes: []
+  extraVolumeMounts: []
+
 # -- Overrides the chart's name
 nameOverride: null
 
